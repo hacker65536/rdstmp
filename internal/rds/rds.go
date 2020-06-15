@@ -1,4 +1,4 @@
-package rdsfunc
+package rds
 
 import (
 	"context"
