@@ -1,4 +1,5 @@
 mode: atomic
+github.com/hacker65536/rds/internal/aws/aws.go:12.13,14.2 1 1
 github.com/hacker65536/rds/main.go:20.13,22.2 1 0
 github.com/hacker65536/rds/internal/rds/rds.go:16.13,18.16 2 1
 github.com/hacker65536/rds/internal/rds/rds.go:21.2,21.23 1 1
