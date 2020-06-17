@@ -18,7 +18,7 @@ package cmd
 import (
 	"fmt"
 
-	myrds "github.com/hacker65536/rds/internal/rds"
+	"github.com/hacker65536/rds/internal/rds"
 	"github.com/spf13/cobra"
 )
 
@@ -35,7 +35,7 @@ to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("ls called")
 
-		myrds.getrds()
+		rds.Getrds("abc")
 	},
 }
 
