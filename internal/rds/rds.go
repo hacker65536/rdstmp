@@ -11,8 +11,6 @@ import (
 
 var (
 	rdssvc *rds.Client
-
-	awsCfg aws.Config
 )
 
 func init() {
