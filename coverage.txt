@@ -1,1 +1,2 @@
 mode: atomic
+github.com/hacker65536/rds/main.go:20.13,22.2 1 0

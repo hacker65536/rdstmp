@@ -22,7 +22,7 @@ func init() {
 
 }
 
-func Getrds(filter string) {
+func Getrds(filter string) string {
 	params := &rds.DescribeDBInstancesInput{}
 	req := rdssvc.DescribeDBInstancesRequest(params)
 
@@ -36,5 +36,7 @@ func Getrds(filter string) {
 		}
 
 	}
+
+	return "ok"
 
 }
