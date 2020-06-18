@@ -1,9 +1,7 @@
 
 
 test: fmt vet 
-	go test ./... -coverprofile cover.out
-
-
+	go test ./... -race -coverprofile=coverage.txt -covermode=atomic
 
 vet:
 	go vet ./...

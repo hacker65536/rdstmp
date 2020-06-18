@@ -1,4 +1,4 @@
-package rdsfunc
+package rds
 
 import (
 	"context"
@@ -11,8 +11,6 @@ import (
 
 var (
 	rdssvc *rds.Client
-
-	awsCfg aws.Config
 )
 
 func init() {
@@ -24,7 +22,7 @@ func init() {
 
 }
 
-func getrds(filter string) {
+func Getrds(filter string) string {
 	params := &rds.DescribeDBInstancesInput{}
 	req := rdssvc.DescribeDBInstancesRequest(params)
 
@@ -38,5 +36,7 @@ func getrds(filter string) {
 		}
 
 	}
+
+	return "ok"
 
 }
